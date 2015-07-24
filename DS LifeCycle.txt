@@ -1,0 +1,102 @@
+Data Science Life Cycle
+
+Data Gathering
+	- Web Crawling (Article, Product, Blogs, General)
+	- Social Media (APIs) (Twitter, Facebook, LinkedIn, Instagram)
+	- Sample Dataset
+	- Open Dataset
+	- RDBMS
+	- NoSQL
+	- S3 or any cloud storage
+	- Local
+
+Data Source Formats (Drivers)
+	- Excel
+	- Flat Files
+	- URL read()
+	- JSON (API Streaming)
+	- XML
+	- RDBMS - Tables
+
+Know your Data / EDA
+	- Build a Dataframe
+	- Summary of dataframe
+		? Data type of each column
+		? Unique values
+		? Missing values
+	- Data Transformation
+		? Categorical to Numeric (get_dummies, One Hot Encoding)
+		? Data Type Conversion
+		? Parsing
+		? Preprocessing Text Data
+			§ Remove white spaces
+			§ Tokenize
+			§ Sentence-nize 
+			§ Stemming
+			§ Lemmatize
+		? TF-IDF
+		? Mean Normalization (Row & Column wise)
+		? Sanitization (PII Data)
+		? Encrypt (Security)
+		? Find the Correlation matrix
+		? Create some viz to understand the data visually (Pairplots, Freq Dist)
+		? Slice & Dice to visualize
+		? Convert to Log scale
+		? Create Lag / Lead version of features
+		? Generate two-way interactions
+		
+Feature Selection
+	- Find the significant features to build final models
+	- Use Step wise Backward / Forward elimination 
+	- Split Independent (Features) & Dependent (Labels) (Vertical Split)
+	- Split Data (Three-way Horizontal split) (Train, Validation & Test)
+	- Dimensionality reduction (PCA, SVD)
+	- Identify Hyper Parameters (Gridsearch, Crossfold validation)
+	- Adaboost / Bootstrap???
+	
+Model Building
+	- Build Base Model
+	- Identify all the possible algorithms for a use case
+	- Predictive Analytics
+		? Linear (OLS, Lasso, Ridge)
+		? Logistic
+		? Gradient Descent 
+		? Binary Classification
+		? Multi Class Classification
+		? Decision Tree
+		? Random Forest
+		? Support Vector Machine
+		? Ensembles
+		? COX
+		? Kaplan-Meier
+		? Wiebull distribution
+	- Text Analytics
+		? Sentiment Analysis (Short / Long)
+			§ Score Based Term Dictionaries
+			§ As a Classification algorithm (Positive, Neutral & Negative)
+		? Entity Extraction (People, Place & Product) (What, Where & Who)
+		? Topic / Concept / Theme Extraction
+		? Topic Modeling (LDA)
+		? LSA, LSI
+		? Word Cloud
+		? Ngrams
+		? Language Identification
+		? Gender Identification
+		? Identify abbreviation (Expand)
+		? Text/Document Clustering / Categorization
+	- Media Analytics
+		? Audio
+		? Audio to Text (Call Center Calls)
+		? Video
+		? Image (Identifying Hand Written Numbers)
+		? Deep Learning
+	- Prescriptive Analytics
+		? ???
+	- Measuring the Model Performance
+		? Confusion Matrix
+		? Precision  / Recall / F1 Score
+		? T-test / Log Rank / Wilcoxon Test
+		? RMSE / Log Loss
+	- Optimization (OR)
+	- Use Cases
+	- Survival / Risk / Churn Analytics
